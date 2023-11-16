@@ -1,0 +1,54 @@
+.inline li{
+    /* display: block; */
+    display: inline;
+}
+
+.box{
+    width: 32%;
+    border: 1px solid black;
+    background: #f4f4f4;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.playground{
+    position: relative;
+    border: 4px solid black;
+    height: 700px; 
+    padding: 20px;
+}
+
+.pos-box{
+    /* position: static;  */
+    /* position: absolute;  */
+    /* position: fixed;  */
+    /* left top right bottom */
+    /* top: 0;
+    left: 0; */
+    bottom: 10px;
+    right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.header{
+    margin-top: 60px;
+}
+
+
+
